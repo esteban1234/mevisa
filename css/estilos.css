@@ -1,0 +1,355 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+  padding: 2% 0;
+}
+
+.logo{
+  width: 20%;
+}
+nav{
+  margin-top: 2%;
+}
+nav ul{
+  padding: 20px;
+}
+nav ul a.selector{
+  text-decoration: none;
+  padding: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  color: #2B2E83;
+}
+nav ul a.selector:hover{
+  color: #F9B233;
+}
+nav ul a#select{
+  color: #F9B233;
+}
+
+.banner{
+   position: relative;
+   width: 100%;
+    height:430px;
+    background: url('../img/banner.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55px;
+  color: #000;
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+/*---------------------------boton------------------------*/
+/*#container_buttons{
+  width: 400px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.3);
+  padding: 60px 60px 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.09) inset;
+}
+
+#container_buttons p{
+  display:block;
+  padding-bottom:60px;
+}*/
+
+a.a_demo_five {
+  background-color:#F9B233;
+  width:180px;
+  display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  text-decoration:none;
+  color:#fff;
+  position:relative;
+  margin-top:20px;
+  padding-bottom:10px;
+  padding-top:10px;
+  background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(44,160,202)),
+  color-stop(1, rgb(62,184,229))
+  );
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.a_demo_five:active {
+  top:0px;
+  background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(62,184,229)),
+  color-stop(1, rgb(44,160,202))
+  );
+  -webkit-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+  -moz-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+  -o-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+  box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.a_demo_five:active::before {
+  top: -30px; 
+  -webkit-box-shadow: 0px 3px 0px #ccc;
+  -moz-box-shadow: 0px 3px 0px #ccc;
+  -o-box-shadow: 0px 3px 0px #ccc;
+  box-shadow: 0px 3px 0px #ccc;
+}
+
+/*.-------------------------------------------------------*/
+.tit{
+  text-align: center;
+  margin-top: 7%;
+  color: #EF9F06;
+  font-family: 'Oswald', sans-serif;
+}
+.linia1{
+  width: 20%;
+  margin: 0 auto;
+  /*background:  #EF9F06;*/
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  margin-top: 1%;
+}
+.img-circle1{
+  width:310px;
+    height:300px;
+    border-radius:150px;
+    /*background: url('../img/banner.jpg') center;*/
+}
+.banner2{
+   position: relative;
+   width: 100%;
+    height:630px;
+    background: url('../img/banner2.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner2 p{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.fondo2{
+  width: 100%;
+  height:630px;
+  background-color: rgba(0,0,0,.8);
+  overflow: hidden;
+}
+.fila{
+  color: #fff;
+  margin-top: 8%;
+}
+#boton{
+  text-align: center;
+}
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+    background:#2B2E83;
+    font-family: 'Oswald', sans-serif;
+    height: 80px;
+    /*font-size: 20px;*/
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+  /*border: 2px red solid;*/
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+    color: #fff;
+}
+
+/*-----------nosotros--------------------*/
+.banner3{
+   position: relative;
+   width: 100%;
+    height:330px;
+    background: url('../img/bannern.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner3 p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  margin-top: 8%;
+  text-transform: uppercase;
+}
+.fondo3{
+  width: 100%;
+  height:330px;
+  background-color: rgba(0,0,0,.8);
+  overflow: hidden;
+}
+.titno{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  margin-top: 8%;
+}
+.banner4{
+   position: relative;
+   width: 100%;
+    height:400px;
+    background: url('../img/banner2.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner4 p{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.fondo4{
+  width: 100%;
+  height:400px;
+  background-color: rgba(0,0,0,.8);
+  overflow: hidden;
+}
+/*-----------servicios-------------------*/
+.servicios{
+  padding: 5% 0%;
+}
+.textos{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+.titsen1{
+  margin-top: 10%;
+}
+.titsen{
+  margin-top: 20%;
+}
+.banner5{
+   position: relative;
+   width: 100%;
+    height:630px;
+    background: url('../img/banner2.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner5 p{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.fondo5{
+  width: 100%;
+  height:630px;
+  background-color: rgba(0,0,0,.8);
+  overflow: hidden;
+}
+.vehiculo1{
+  position: relative;
+   width: 100%;
+   height: 230px;
+  background: url('../img/autobus.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.vehiculo2{
+  position: relative;
+   width: 100%;
+   height: 230px;
+  background: url('../img/camionetas.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.vehiculo3{
+  position: relative;
+   width: 100%;
+   height: 230px;
+  background: url('../img/camionetas2.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.vehiculo4{
+  position: relative;
+   width: 100%;
+   height: 230px;
+  background: url('../img/auto.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+/*-----------contacto--------------------*/
+
+.bannerc{
+   position: relative;
+   width: 100%;
+    height:230px;
+    background: url('../img/bannern.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.bannerc p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+.fondoc{
+  width: 100%;
+  height:230px;
+  background-color: rgba(0,0,0,.8);
+  overflow: hidden;
+}
