@@ -21,7 +21,7 @@
     <div class="fondo3">
       <p>Tipos de Servicios</p>
      <div id="boton">
-            <a href="vistas/contacto.php"><button type="button" class="btn btn-warning">
+            <a href="contacto.php"><button type="button" class="btn btn-warning">
                 <span class="fa fa-phone fa-fw"></span> CONTACTANOS
               </button></a>
       </div>
@@ -118,7 +118,7 @@
         </div>
           <br><br>
         <div id="boton">
-            <a href="vistas/contacto.php"><button type="button" class="btn btn-warning">
+            <a href="contacto.php"><button type="button" class="btn btn-warning">
                 <span class="fa fa-phone fa-fw"></span> CONTACTANOS
               </button></a>
       </div>
