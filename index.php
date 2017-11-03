@@ -40,6 +40,7 @@
     <hr class="linia1">
         <br><br>
         <div class="row">
+<<<<<<< HEAD
           <div class="col-xs-12 col-sm-4 col-md-4 br">
             <img src="img/turisticos.jpg" class="img-circle1 ">
             <h2 class="text-center tit-tee">Servicio Turístico</h2>
@@ -51,6 +52,25 @@
           <div class="col-xs-12 col-sm-4 col-md-4 br">
            <img src="img/empresarial3.jpg" class="img-circle1 ">
             <h2 class="text-center tit-tee">Servicio Empresarial</h2>
+=======
+          <div class="col-md-4">
+            <div class="img-circle0">
+              
+            </div>
+            <h2 class="text-center">Servicio Turístico</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="img-circle1">
+              
+            </div>
+            <h2 class="text-center">Servicio Ejecutivo</h2>
+          </div>
+          <div class="col-md-4">
+           <div class="img-circle2">
+              
+            </div>
+            <h2 class="text-center">Servicio Empresarial</h2>
+>>>>>>> 59f0bd74635a2aa250be3e759571c4f2b2ce0b42
           </div>
         </div>
   </div>
