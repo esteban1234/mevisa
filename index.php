@@ -24,7 +24,7 @@
   </header>
   <div class="banner">
     <div class="fondoi">
-      <p>A LA VANGUARDIA Y LIDER <br> en el transporte de personal</p>
+      <p class="pp">A LA VANGUARDIA Y LIDER <br> en el transporte de personal</p>
       <div id="container_buttons">
           <p>
             <a class="a_demo_five" href="vistas/contacto.php"">
