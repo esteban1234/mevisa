@@ -53,6 +53,11 @@ nav ul a#select{
 }
 
 
+.op-menu{
+  display: none;
+}
+
+
 /*---------------------------boton------------------------*/
 /*#container_buttons{
   width: 400px;

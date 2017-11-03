@@ -15,6 +15,10 @@
           <a class="selector" id="select" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+
+       <div class="op-menu">
+        <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+      </div>
     </div>
   </header>
 
@@ -27,39 +31,41 @@
   <div class="container" style="padding: 5% 0%;">
     <br>
     <div class="row">
-        <div class="col-md-3" >
+        <div class="col-sm-6 col-md-3" >
             <h4 class="text-center"><i class="fa fa-street-view" aria-hidden="true"></i> DIRECCION</h4>
-            <hr>
-            <p class="text-center" style="height: 90px;">C. Club Campestre #365 M20 L60 por C. San Marino y C. Circuito Sur, Col. Campanario. Tuxtla Gutierrez, Chiapas. C.P. 29057</p>
+            <hr class="hr-c">
+            <p class="text-center txt-c" style="height: 90px;">C. Club Campestre #365 M20 L60 por C. San Marino y C. Circuito Sur, Col. Campanario. Tuxtla Gutierrez, Chiapas. C.P. 29057</p>
         </div>
-        <div class="col-md-3" >
+        <div class="col-sm-6 col-md-3" >
             <h4 class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> HORARIO</h4>
-            <hr>
-            <p class="text-center" style="height: 90px;">Lunes a Viernes de 9 am a 6 pm</p>
+            <hr class="hr-c">
+            <p class="text-center txt-c" style="height: 90px;">Lunes a Viernes de 9 am a 6 pm</p>
         </div>
-        <div class="col-md-3" >
+        <div class="col-sm-6 col-md-3" >
             <h4 class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i> CORREO</h4>
-            <hr>
-            <p class="text-center" style="height: 90px;">info@transportemevisa.com</p>
+            <hr class="hr-c">
+            <p class="text-center txt-c" style="height: 90px;">info@transportemevisa.com</p>
         </div>
-        <div class="col-md-3" >
+        <div class="col-sm-6 col-md-3" >
             <h4 class="text-center"><i class="fa fa-phone" aria-hidden="true"></i> TELEFONO</h4>
-            <hr>
-            <p class="text-center" style="height: 90px;">PENDIENTE</p>
+            <hr class="hr-c">
+            <p class="text-center txt-c" style="height: 90px;">PENDIENTE</p>
         </div>
         
     </div>
 </div>
 
 <div class="sectionc">
-    <div class="container">
-        <h1 class="text-center" style="color: #fff;">Formulario de contacto</h1> <br><br>
-            <form action="" method="post">
-                <input type="text" name="subject" class="form-control" placeholder=" Escribe tu nombre completo" />
-            <input type="text" name="email" class="form-control" placeholder=" Escribe tu correo electrónico" />
-            <input type="text" name="subject" class="form-control" placeholder=" Escribe tu número teléfonico" />
-            <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder=" Escribe tu comentario"></textarea>
-            <center><button type="submit" name="send_message" class="btn btn-primary btn-large btn-half btn-send"><i class="fa fa-send fa-2x"></i></button></center>
+    <div class="container delete-br">
+        <h1 class="text-center tit-f" style="color: #fff;">Formulario de contacto</h1> <br><br>
+            <form action="" method="post" onSubmit="return false">
+                <input id="txtNOMBRE" type="text" name="subject" class="form-control" placeholder=" Escribe tu nombre completo" />
+            <input type="text" id="txtCORREO" name="email" class="form-control" placeholder=" Escribe tu correo electrónico" />
+            <input type="text" id="txtTELEFONO" name="subject" class="form-control" placeholder=" Escribe tu número teléfonico" />
+            <textarea id="txtCOMENTARIO" name="message" id="message" cols="30" rows="10" class="form-control" placeholder=" Escribe tu comentario"></textarea>
+
+            <div id="_AJAX_PRE_"></div>
+            <center><button type="submit" name="send_message" class="btn btn-primary btn-large btn-half btn-send" onclick="sendCORREO()"><i class="fa fa-send fa-2x"></i></button></center>
         </form>
     </div>
 </div>
@@ -74,6 +80,7 @@
 <script src="../js/funciondthc.js"></script>
 <script src="../js/requerido.js"></script>
 <script src="../js/sendCORREO.js"></script>
+<script src="../js/menu.js"></script>
 
 </body>
 </html>

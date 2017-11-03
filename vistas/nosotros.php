@@ -16,6 +16,10 @@
           <a class="selector" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+
+         <div class="op-menu">
+        <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+      </div>
     </div>
   </header>
   <div class="banner3">
@@ -38,20 +42,20 @@
     <div class="fondo4">
       <div class="container">
         <div class="row fila">
-          <div class="col-md-4">
-            <h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="tit-mvv">
               <i class="fa fa-check fa-fw"></i>MISION</h3>
             <p class="text-justify">Garantizar un servicio de calidad, seguridad y confianza, a través de la innovación en tecnología, personal altamente calificado y amplia cobertura en las necesidades de nuestros clientes.</p>
           </div>
-          <div class="col-md-4">
-            <h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="tit-mvv">
               <i class="fa fa-check fa-fw"></i>VISION</h3>
             <p class="text-justify">Ser empresa líder en cuanto a transporte especializado de personal empresarial a nivel nacional, brindando seguridad y satisfacción a nuestros clientes.</p>
           </div>
-          <div class="col-md-4">
-            <h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="tit-mvv">
               <i class="fa fa-check fa-fw"></i>VALORES</h3>
-            <p class="text-justify">Seguridad en el servicio. <br> Puntualidad. <br> Higiene de las unidades del transporte. <br> Precio competitivo.</p>
+            <p class="text-justify sub-mvv">Seguridad en el servicio. <br> Puntualidad. <br> Higiene de las unidades del transporte. <br> Precio competitivo.</p>
           </div>
           
         </div>
