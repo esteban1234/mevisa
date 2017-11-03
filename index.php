@@ -23,7 +23,7 @@
     </div>
   </header>
   <div class="banner">
-    <div class="fondo">
+    <div class="fondoi">
       <p>A LA VANGUARDIA Y LIDER <br> en el transporte de personal</p>
       <div id="container_buttons">
           <p>
