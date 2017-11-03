@@ -37,15 +37,21 @@
         <br><br>
         <div class="row">
           <div class="col-md-4">
-            <img src="img/turisticos.jpg" class="img-circle1 ">
+            <div class="img-circle0">
+              
+            </div>
             <h2 class="text-center">Servicio Turístico</h2>
           </div>
           <div class="col-md-4">
-           <img src="img/ejecutivo.jpg" class="img-circle1 ">
+            <div class="img-circle1">
+              
+            </div>
             <h2 class="text-center">Servicio Ejecutivo</h2>
           </div>
           <div class="col-md-4">
-           <img src="img/empresarial3.jpg" class="img-circle1 ">
+           <div class="img-circle2">
+              
+            </div>
             <h2 class="text-center">Servicio Empresarial</h2>
           </div>
         </div>
