@@ -56,8 +56,6 @@
 
 	.img-circle1{
 		margin: auto !important;
-		width: 210px;
-		height: 210px;
 		float: none;
 	}
 
@@ -232,8 +230,7 @@
 
 	.img-circle1{
 		margin: auto !important;
-		width: 210px;
-		height: 210px;
+		width: 80%;
 		float: none;
 	}
 
@@ -415,8 +412,7 @@
 
 	.img-circle1{
 		margin: auto !important;
-		width: 210px;
-		height: 210px;
+		width: 80%;
 		float: none;
 	}
 
